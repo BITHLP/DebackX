@@ -10,7 +10,7 @@ Source code of paper "Exploring In-Image Machine Translation with Real-World Bac
 
 ## 📦 Dataset
 
-Download the **IIMT30k** dataset from [link to dataset].
+Download the **IIMT30k** dataset from [![HuggingFace](https://img.shields.io/badge/HuggingFace-yellow?style=flat&logo=huggingface)](https://huggingface.co/datasets/yztian/IIMT30k)
 
 ---
 
