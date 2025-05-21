@@ -1,0 +1,29 @@
+{
+    "data":{
+        "train_src_img_path": "/data2/yztian/IIMT30k/TimesNewRoman/train/en/image",
+        "train_tgt_img_path": "/data2/yztian/IIMT30k/TimesNewRoman/train/de/image",
+        "train_src_text_img_path": "/data2/yztian/IIMT30k/TimesNewRoman/train/en/text",
+        "train_tgt_text_img_path": "/data2/yztian/IIMT30k/TimesNewRoman/train/de/text",
+        "train_background_img_path": "/data2/yztian/IIMT30k/TimesNewRoman/train/background",
+        "valid_src_img_path": "/data2/yztian/IIMT30k/TimesNewRoman/val/en/image",
+        "valid_tgt_img_path": "/data2/yztian/IIMT30k/TimesNewRoman/val/de/image",
+        "valid_src_text_img_path": "/data2/yztian/IIMT30k/TimesNewRoman/val/en/text",
+        "valid_tgt_text_img_path": "/data2/yztian/IIMT30k/TimesNewRoman/val/de/text",
+        "valid_background_img_path": "/data2/yztian/IIMT30k/TimesNewRoman/val/background"
+    },
+    "train":{
+        "load_checkpoint": "",
+        "save_checkpoint_dir": "/data1/yztian/ACL2025/DebackX/models/fuse",
+        "batch_size": 128,
+        "epoch": -1,
+        "max_update_step": 50000,
+        "warmup_steps": 5000,
+        "warmup_init_lr": 1e-7,  
+        "max_lr":1e-4,
+        "tensorboard_dir": "/data1/yztian/ACL2025/DebackX/tb",
+        "note": "l2+0.1lpip; patch16"
+    },
+    "model":{
+        "patch_size": 16
+    }
+}

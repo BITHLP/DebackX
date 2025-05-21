@@ -1,0 +1,36 @@
+{
+    "data":{
+        "train_src_code_path": "/data1/yztian/ACL2025/DebackX/results/codebook/train/en/code.txt",
+        "train_tgt_code_path": "/data1/yztian/ACL2025/DebackX/results/codebook/train/de/code.txt",
+        "train_text_path": "/data2/yztian/IIMT30k/TimesNewRoman/train/de/subtitle.tok.id.txt",
+        "valid_src_code_path": "/data1/yztian/ACL2025/DebackX/results/codebook/val/en/code.txt",
+        "valid_tgt_code_path": "/data1/yztian/ACL2025/DebackX/results/codebook/val/de/code.txt",
+        "valid_text_path": "/data2/yztian/IIMT30k/TimesNewRoman/val/de/subtitle.tok.id.txt",
+        "text_sp": "/data1/yztian/ACL2025/DebackX/scripts/multi30k.model"
+    },
+    "train":{
+        "load_checkpoint": "",
+        "load_pretrain": "",
+        "save_checkpoint_dir": "/data1/yztian/ACL2025/DebackX/models/translation",
+        "batch_size": 256,
+        "epoch": -1,
+        "max_update_step": 100000,
+        "warmup_steps": 5000,
+        "warmup_init_lr": 1e-7,  
+        "max_lr":1e-4,
+        "tensorboard_dir": "/data1/yztian/ACL2025/DebackX/tb",
+        "note": "en-de; small text model+big code model"
+    },
+    "model":{
+        "codebook_size": 8192,
+        "code_d_model": 1024,
+        "code_d_ff": 4096,
+        "code_n_head": 16,
+        "code_l": 6,
+        "text_d_model": 256,
+        "text_d_ff": 1024,
+        "text_n_head": 4,
+        "text_l": 3,
+        "dropout": 0.3
+    }
+}

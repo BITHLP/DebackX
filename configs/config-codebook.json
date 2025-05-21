@@ -1,0 +1,26 @@
+{
+    "data":{
+        "train_src_text_img_path": "/data2/yztian/IIMT30k/TimesNewRoman/train/en/text",
+        "train_tgt_text_img_path": "/data2/yztian/IIMT30k/TimesNewRoman/train/de/text",
+        "valid_src_text_img_path": "/data2/yztian/IIMT30k/TimesNewRoman/val/en/text",
+        "valid_tgt_text_img_path": "/data2/yztian/IIMT30k/TimesNewRoman/val/de/text"
+    },
+    "train":{
+        "load_checkpoint": "",
+        "save_checkpoint_dir": "/data1/yztian/ACL2025/DebackX/models/codebook",
+        "batch_size": 160,
+        "epoch": -1,
+        "max_update_step": 50000,
+        "warmup_steps": 5000,
+        "warmup_init_lr": 1e-7,  
+        "max_lr":1e-4,
+        "tensorboard_dir": "/data1/yztian/ACL2025/DebackX/tb",
+        "note": "l2+0.1lpip; patch16"
+    },
+    "model":{
+        "patch_size": 16,
+        "dim": 512,
+        "codebook_dim": 32,
+        "codebook_size": 8192
+    }
+}
