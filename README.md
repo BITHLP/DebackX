@@ -1,11 +1,10 @@
 # DebackX
 
-Source code of paper "Exploring In-Image Machine Translation with Real-World Background" (ACL 2025 Findings) [link to paper].
+Source code of paper "Exploring In-Image Machine Translation with Real-World Background" (ACL 2025 Findings) [![arXiv](https://img.shields.io/badge/arXiv-2505.15282-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.15282).
 
 <p align="center">
   <img src="./img/example1.png" alt="example1" style="width:400px;"/>
 </p>
-
 
 
 ## 📦 Dataset
